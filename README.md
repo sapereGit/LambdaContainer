@@ -10,7 +10,7 @@ reference to this code was taken from : https://aws.amazon.com/blogs/aws/new-for
 Below ar ethe list of command that will help you get through the process.
 
 
-### start by buildiung a docker image 
+### start by building a docker image 
 
 1. docker build . -t lambda-container:0.0.1
 2. docker run -p 9000:8080 lambda-container:0.0.1
